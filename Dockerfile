@@ -10,8 +10,8 @@ ADD . /app
 # 安装在 requirements.txt 中列出的任何需要的包
 RUN pip install --no-cache-dir -r requirements.txt
 
-# 使端口 1234 可供此应用使用
-EXPOSE 1234
+# 使端口8000可供此应用使用
+EXPOSE 8000
 
 # 运行 main.py 时，容器将运行以下命令
 CMD ["uvicorn", "main:app", "--host", "0.0.0.0", "--port", "8000"]
