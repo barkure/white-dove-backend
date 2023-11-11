@@ -1,6 +1,6 @@
 # 定义 GitHub OAuth 配置
-GITHUB_CLIENT_ID = "Iv1.d6ebdcdaf104ba3c"
-GITHUB_CLIENT_SECRET = "016d84685685b129b10fced1d687e07e9c2581ae"
+GITHUB_CLIENT_ID = "your-github-client-id"
+GITHUB_CLIENT_SECRET = "your-github-client-secret"
 # GitHub回调地址
 REDIRECT_URI = "http://localhost:3000/github-oauth-redirect" # 此项根据前端地址修改
 # GitHub授权链接，此项不用修改
