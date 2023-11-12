@@ -8,7 +8,7 @@
 # # 配置TOKEN过期时间
 # ACCESS_TOKEN_EXPIRE_MINUTES = 1440 # 默认24小时
 
-# 如果你要自己前后端分离部署，那么你需要取消上面的注释，按需修改配置项，且应该注释掉下面的配置项。
+# 如果你要自己前后端分离部署，那么你需要取消上面的注释，按需修改配置项，且应该注释掉下面的配置项。123
 # 从环境变量中获取配置项
 import os
 GITHUB_CLIENT_ID = os.getenv("GITHUB_CLIENT_ID")
