@@ -1,5 +1,5 @@
 # white-dove-backend
- 博客系统 White Dove 的后端，使用 FastAPI，如果你还没部署前端，请访问 [white-dove-frontend](https://github.com/barkure/white).
+ 博客系统 White Dove 的后端，使用 FastAPI，如果你还没部署前端，请访问 [white-dove-frontend](https://github.com/barkure/white-dove-frontend).
 # 后端部署方法
 ## 创建 Docker Compose 文件
 你可以为后端新建一个目录，比如名为`white-dove-backend`，然后新建一个`docker-compose.yml`文件，内容如下：
